@@ -19,7 +19,8 @@ add_library(Nativefin-Core
         src/util.cpp
         src/util.h
         src/db.cpp
-        src/db.h)
+        src/db.h
+        src/event.h)
 
 target_link_libraries(Nativefin-Core PRIVATE CURL::libcurl SQLite3::SQLite3)
 
